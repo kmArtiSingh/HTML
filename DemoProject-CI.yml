@@ -9,7 +9,7 @@ jobs:
 - job: Job_1
   displayName: Agent job 1
   pool:
-    name: Azure Pipeline
+    name: 'Agent_Job'
   steps:
   - checkout: self
   - task: PowerShell@2
