@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    font-family: monospace;
+    line-height: 150%;
+    font-family: 'Lato', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+i:hover{
+    color: orangered;
+    transition: all 1s;
+    cursor: pointer;
+}
+.container-fluid{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+.row{
+    width: 100%;
+    height: auto; 
+}
+.row:after{
+    display: block;
+    clear: both;
+    content: "";
+}
+.header .outer-flex{
+    display: flex;
+}
+.header .left-header{
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px 40px;
+    float: left;
+}
+.header .center-header{
+    width: 50%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    text-align: right;
+}
+.header .center-header a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    padding: 37px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header .center-header a:hover{
+    color: orangered;
+    transition: all 1s;
+}
+
+.header .right-header{
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+    float: left;
+    padding: 20px 40px;
+}
+.header .right-header i{
+    margin: 18px 10px;
+    font-size: 25px;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+.banner .data{
+    position: relative;
+}
+
+.banner .banner-content{
+    position: absolute;
+    top:80px;
+    color: white;
+    left: 100px;
+    line-height: 180%;
+}
+.banner .banner-content h4{
+    font-size: 24px;
+    font-family: 'Kalam', cursive;
+    font-weight: 100;
+    
+}
+.banner .banner-content h1{
+    font-size: 100px;
+}
+.banner .banner-content h3{
+    font-size: 36px;
+}
+.banner .banner-content a{
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
