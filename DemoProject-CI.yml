@@ -9,13 +9,13 @@ jobs:
 - job: Job_1
   displayName: Agent job 1
   pool:
-    name: MyOwnAgent
+    name: Azure Pipeline
   steps:
   - checkout: self
   - task: PowerShell@2
     displayName: PowerShell Script
     inputs:
-      filePath: File2.ps1
+
       script: >+
         # Write your PowerShell commands here.
 
@@ -23,12 +23,6 @@ jobs:
         Write-Host "Hello World"
 
 
-        Write-Host "Hello World"
-
-
-        Write-Host "Hello World"
-
-
-        Write-Host "Hello World"
+ 
 
 ...
