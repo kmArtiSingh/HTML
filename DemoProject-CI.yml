@@ -1,0 +1,34 @@
+# Variable Group 'MyFirstVariableGroup' was defined in the Variables tab
+# Cron Schedules have been converted using UTC Time Zone and may need to be updated for your location
+schedules:
+- cron: 14 12 * * 1
+  branches:
+    include:
+    - refs/heads/main
+jobs:
+- job: Job_1
+  displayName: Agent job 1
+  pool:
+    name: MyOwnAgent
+  steps:
+  - checkout: self
+  - task: PowerShell@2
+    displayName: PowerShell Script
+    inputs:
+      filePath: File2.ps1
+      script: >+
+        # Write your PowerShell commands here.
+
+
+        Write-Host "Hello World"
+
+
+        Write-Host "Hello World"
+
+
+        Write-Host "Hello World"
+
+
+        Write-Host "Hello World"
+
+...
